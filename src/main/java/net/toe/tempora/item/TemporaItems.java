@@ -9,12 +9,40 @@ import net.toe.tempora.Tempora;
 
 public class TemporaItems {
 
+    // DEFAULT JADE
     public static final Item TEMPORAL_CRYSTAL = registerItem("temporal_crystal",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
 
+    // PREHISTORIC JADES
     public static final Item PREHISTORIC_TEMPORAL_CRYSTAL = registerItem("prehistoric_temporal_crystal",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
 
+    public static final Item PREHISTORIC_CRYSTAL = registerItem("prehistoric_crystal",
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
+
+    // PREHISTORIC ORES
+
+    public static final Item RAW_CHRONOSTONE = registerItem("raw_chronostone",
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
+
+    public static final Item CHRONOSTONE = registerItem("chronostone",
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
+
+    // MEDIEVAL JADES
+    public static final Item MEDIEVAL_TEMPORAL_CRYSTAL = registerItem("medieval_temporal_crystal",
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
+
+    public static final Item MEDIEVAL_CRYSTAL = registerItem("medieval_crystal",
+            new Item(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
+
+    // MODERN JADES
+
+
+    // FUTURISTIC JADES
+
+    // ********************
+
+    // Helper methods
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Tempora.MOD_ID, name), item);
     }
