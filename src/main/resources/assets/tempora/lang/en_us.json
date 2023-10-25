@@ -1,6 +1,8 @@
 {
   "itemGroup.tempora.tempora": "Temporal Resonance",
 
+  "item.tempora.soul_ring": "Soul Ring",
+
   "item.tempora.temporal_crystal": "Temporal Crystal",
   "item.tempora.prehistoric_temporal_crystal": "Prehistoric Temporal Crystal",
   "item.tempora.prehistoric_crystal": "Prehistoric Crystal",
@@ -15,7 +17,7 @@
   "item.tempora.chronostone_hoe": "Chronostone Hoe",
   "item.tempora.chronostone_shovel": "Chronostone Shovel",
 
+  "block.tempora.temporal_portal_frame": "Temporal Portal Frame",
 
-
-  "block.tempora.temporal_portal_frame": "Temporal Portal Frame"
+  "key.tempora.toggle_skill_tree_ui": "Toggle Skill Tree"
 }

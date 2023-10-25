@@ -28,6 +28,6 @@ public class TemporaBlocks {
     }
 
     public static void registerBlocks() {
-        Tempora.LOGGER.info("Registering blocks for " + Tempora.MOD_ID);
+        Tempora.LOGGER.info("Registering blocks.");
     }
 }

@@ -32,6 +32,6 @@ public class TemporaTools {
     }
 
     public static void registerTemporaTools() {
-        Tempora.LOGGER.info("Registering tools for " + Tempora.MOD_ID);
+        Tempora.LOGGER.info("Registering tools.");
     }
 }

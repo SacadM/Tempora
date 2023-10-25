@@ -2,12 +2,16 @@ package net.toe.tempora.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.toe.tempora.Tempora;
+import net.toe.tempora.item.custom.SoulRing;
 
 public class TemporaItems {
+
+    // SOUL RING
+    public static final Item SOUL_RING = registerItem("soul_ring",
+            new SoulRing(new FabricItemSettings().group(TemporaItemGroup.TEMPORA)));
 
     // DEFAULT JADE
     public static final Item TEMPORAL_CRYSTAL = registerItem("temporal_crystal",
@@ -48,7 +52,7 @@ public class TemporaItems {
     }
 
     public static void registerItems() {
-        Tempora.LOGGER.info("Registering items for " + Tempora.MOD_ID);
+        Tempora.LOGGER.info("Registering items.");
     }
 
 }

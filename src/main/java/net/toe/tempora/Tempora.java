@@ -2,7 +2,9 @@ package net.toe.tempora;
 
 import net.fabricmc.api.ModInitializer;
 import net.toe.tempora.block.TemporaBlocks;
+import net.toe.tempora.client.skill.SkillEffects;
 import net.toe.tempora.item.TemporaItems;
+import net.toe.tempora.networking.TemporaPackets;
 import net.toe.tempora.tool.TemporaTools;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,5 +20,6 @@ public class Tempora implements ModInitializer {
 		TemporaItems.registerItems();
 		TemporaBlocks.registerBlocks();
 		TemporaTools.registerTemporaTools();
+		TemporaPackets.registerC2SPacket();
 	}
 }
